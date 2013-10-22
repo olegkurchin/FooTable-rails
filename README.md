@@ -1,7 +1,8 @@
 FooTable-rails
 ==============
 
-footable-rails integrates [FooTable](https://github.com/bradvin/FooTable) in Rails assets pipeline.
+FooTable-rails integrates [FooTable](https://github.com/bradvin/FooTable) in Rails assets pipeline.
+This is fork of V2-branch
 
 1. Add to Gemfile
 ```
