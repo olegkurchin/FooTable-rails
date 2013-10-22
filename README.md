@@ -9,8 +9,7 @@ gem 'footable-rails'
 ```
 
 2. Add to application.css before *= require tree
-
-````sass
+```sass
 *= require footable-rails
 ```
 
