@@ -4,7 +4,7 @@ require File.expand_path('../lib/footable-rails/version', __FILE__)
 desc "Update assets"
 task :update do
   system("rm -rf FooTable-src")
-  system("git clone git://github.com/bradvin/FooTable.git FooTable-src")
+  system("git clone git://github.com/bradvin/FooTable.git -b V2 FooTable-src")
   system("git status")
 end
 
