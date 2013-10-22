@@ -19,8 +19,12 @@ gem 'footable-rails'
 ```
 
 4. Initialize FooTable!
-There should be a match between table class="my_footable" and ".my_footable"
+There should be a match between table class "my_footable" and ".my_footable"
 ```html
+<table class='my_footable' data-page-navigation=".pagination" data-filter="#filter" ...>
+  ...
+</table>
+<!-- don't forget to initialize after </table>-tag -->
 <script type="text/javascript">
     $(function () {
         $('.my_footable').footable();
